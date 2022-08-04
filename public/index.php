@@ -1,23 +1,6 @@
 <?php
 include('../private/initialise.php');
-/*if(!isset($SHARED_PATH)){
-    echo '<br><br>shared path is not set<br>';
-}
-if(!isset($PRIVATE_PATH)){
-    echo 'PRIVATE path is not set<br>';
-}
-if(!isset($PROJECT_PATH)){
-    echo 'PROJECT_PATHis not set<br>';
-}
-if(!isset($PUBLIC_PATH)){
-    echo 'PUBLIC_PATH is not set<br>';
-}*/
-//echo $PRIVATE_PATH;
 
-echo '<br>The shared path ihhs '.SHARED_PATH;
-echo '<br>The private path ishh '.PRIVATE_PATH;
-echo '<br>The project path is '.PROJECT_PATH;
-echo '<br>The public path is '.PUBLIC_PATH;
 $page_title="index title";
 ?>
 
