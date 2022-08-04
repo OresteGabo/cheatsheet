@@ -1,3 +1,11 @@
+<?php
+$initialisepath='../initialise.php';
+//echo $initialisepath;
+include('../initialise.php');
+echo PRIVATE_PATH;
+
+?>
+
 <nav class="navbar">
         <img src="logo-cropped.svg" class="logo" alt="gabo logo">
         <!--<a href="index.html" class="nav-branding">GABO.io</a>-->
@@ -6,7 +14,7 @@
                 <a href="#" class="nav-link">CSS</a>
             </li>
             <li class="nav-item active"><a href="#" class="nav-link " >Flutter & dart</a></li>
-            <li class="nav-item"><a href="pages/java/index.php" class="nav-link">Java</a></li>
+            <li class="nav-item"><a href="/home/oreste/Desktop/portfolio_php/public/pages/java/index.php" class="nav-link">Java</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Database</a></li>
             <li class="nav-item"><a href="#" class="nav-link">private</a></li>
         </ul>
@@ -17,4 +25,4 @@
         </div>
     </nav>
 
-    
+ 

@@ -1,3 +1,10 @@
+<?php
+include'../initialise.php';
+if(!isset($page_title)){
+    $page_title='unset page title';
+}
+?>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -5,5 +12,5 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <title>ORESTE</title>
+    <title><?php echo $page_title; ?></title>
 </head>

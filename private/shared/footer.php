@@ -12,7 +12,7 @@
             <li><a href="#">FAQ</a></li>
         </ul>
 
-        <p class="footer-company-name">GABO © 2022</p>
+        <p class="footer-company-name">GABO © <?php echo date("Y"); ?></p>
     </div>
 
     <div class="footer-center">
@@ -29,7 +29,7 @@
 
         <div>
             <i class="fa fa-envelope"></i>
-            <p><a href="mailto:support@company.com">muhirwa.g.oreste@gmail.com</a></p>
+            <p><a href="mailto:muhirwa.g.oreste.com">muhirwa.g.oreste@gmail.com</a></p>
         </div>
     </div>
     <div class="footer-right">
@@ -41,10 +41,11 @@
 
         <div class="footer-icons">
 
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-codepen"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
             <a href="#"><i class="fa fa-linkedin"></i></a>
             <a href="#"><i class="fa fa-github"></i></a>
+            <a href="#"><i class="fa fa-dribble"></i></a>
 
         </div>
 
