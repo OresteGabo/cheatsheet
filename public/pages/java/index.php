@@ -1,15 +1,14 @@
 <?php
-include ('../../../private/initialise.php');
+require_once ('../../../private/initialise.php');
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <?php
 require_once(SHARED_PATH.'/head.php');
 ?>
 <body>
-    <?php
-    require_once(SHARED_PATH.'/navigation.php');
+    <?php require_once(SHARED_PATH.'/navigation.php');
     ?>
 <div class="container">
     <div class="container">
