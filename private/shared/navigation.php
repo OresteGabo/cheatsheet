@@ -1,14 +1,10 @@
 <?php
-$initialisepath='../initialise.php';
-//echo $initialisepath;
 include('../initialise.php');
-echo PRIVATE_PATH;
 
 ?>
 
 <nav class="navbar">
-        <img src="logo-cropped.svg" class="logo" alt="gabo logo">
-        <!--<a href="index.html" class="nav-branding">GABO.io</a>-->
+        <img src="<?php echo WWW_ROOT.'/logo-cropped.svg';?>" class="logo" alt="gabo logo">
         <ul class="nav-menu">
             <li class="nav-item">
                 <a href="#" class="nav-link">CSS</a>
