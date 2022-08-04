@@ -182,19 +182,24 @@ pre:hover{
     padding-right:10px;
     min-width:300px;
 }
-
-code .widget{
+code .datatype{
     color:orange;
 }
 
+
+
 code .property{
-    color:yellow;
+    color:RGB(180, 142, 173);
+    font-style: italic;
 }
 code .string{
     color:RGB(55, 178, 77);
 }
 code .comment{
     color: rgba(146, 141, 141, 0.81);
+}
+code .keyword,code .acsess-modifier{
+    color:RGB(235, 203, 139);
 }
 .li-key{
     text-decoration:underline;

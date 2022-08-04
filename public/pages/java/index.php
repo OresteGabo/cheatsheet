@@ -71,8 +71,8 @@ d’un même type, connu seulement au moment de la compilation.
 <code><span class="comment">// T est un paramètre (formel) de type.</span></code>
 <code><span class="comment">/* Dorénavant, un couple de n’importe quel type référence pourra être</span></code>
 <code><span class="comment">instancié. */</span></code>
-<code><span class="acsess-modifier">public</span> <span class="keyword">class</span> <span class="datatype">Couple</span><T> {</code>
-<code>	// Les attributs sont de type T.</code>
+<code><span class="acsess-modifier">public</span> <span class="keyword">class</span> <span class="datatype">Couple</span>&lt<span class="datatype">T</span>&gt {</code>
+<code>	<span class="comment">// Les attributs sont de type T.</span></code>
 <code>	<span class="acsess-modifier">public</span> <span class="keyword">final</span> <span class="datatype">T</span> <span class="property">un</span>, <span class="property">deux</span> ; <span class="comment">// Il n’est pas encore connu.</span></code>
 <code>	<span class="acsess-modifier">public</span> <span class="datatype">Couple</span>(<span class="datatype">T</span> <span class="property">un</span>, <span class="datatype">T</span> <span class="property">deux</span>) {</code>
 <code>		<span class="keyword">this</span>.<span class="property">un</span> = <span class="property">un</span> ; <span class="keyword">this</span>.<span class="property">deux</span> = <span class="property">deux</span> ;</code>
