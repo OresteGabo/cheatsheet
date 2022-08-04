@@ -8,8 +8,11 @@ require_once ('../../../private/initialise.php');
 require_once(SHARED_PATH.'/head.php');
 ?>
 <body>
+  <header>
     <?php require_once(SHARED_PATH.'/navigation.php');
     ?>
+    </header>
+    <div id="wrapper">
 <div class="container">
     <div class="container">
       <aside   class="table-of-content">
@@ -86,6 +89,7 @@ d’un même type, connu seulement au moment de la compilation.
           
         </main>
     </div>
+</div>
 </div>
 </body>
 </html>
