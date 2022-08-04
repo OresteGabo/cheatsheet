@@ -4,6 +4,9 @@
 require_once('../page_parts/head.php');
 ?>
 <body>
+    <?php
+    require_once('../page_parts/navigation.php');
+    ?>
 <div class="container">
     <div class="container">
       <aside   class="table-of-content">

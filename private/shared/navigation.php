@@ -6,7 +6,7 @@
                 <a href="#" class="nav-link">CSS</a>
             </li>
             <li class="nav-item active"><a href="#" class="nav-link " >Flutter & dart</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Java</a></li>
+            <li class="nav-item"><a href="pages/java/index.php" class="nav-link">Java</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Database</a></li>
             <li class="nav-item"><a href="#" class="nav-link">private</a></li>
         </ul>
