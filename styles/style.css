@@ -48,10 +48,7 @@ a{
 .nav-link{
     transition:0.7s ease;
 }
-.nav-link:hover{
-    /*color:dodgerblue;*/
-    
-}
+
 .hamburger{
     display:none;
     cursor:pointer;
@@ -184,9 +181,7 @@ pre:hover{
     padding-right:10px;
     min-width:300px;
 }
-.code:hover{
 
-}
 code .widget{
     color:orange;
 }
@@ -205,8 +200,6 @@ code .comment{
 }
 
 @media (max-width:768px){
-    .hamburger{
-    }
 
     .hamburger{
         display:block;
