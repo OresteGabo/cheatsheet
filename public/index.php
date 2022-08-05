@@ -37,6 +37,7 @@ require_once(SHARED_PATH.'/head.php');
 <code>  ),</code>
 <code>),</code>
 </pre>
+<p class="code-title">The text widget in flutter</p>
                 </div>
 
             </li>
@@ -44,7 +45,7 @@ require_once(SHARED_PATH.'/head.php');
                 <strong class="li-key">Padding</strong> is used as a normal web padding
                 however, there is no margin property, to leave a space between widgets, a <span class="widget"><strong>SizedBox</strong></span> widget is used, with <em>height</em> and or <em>width</em> property
                 <div class="code">
-
+                
                     <pre class="code">
 <code><span class="comment">//Padding widget is just the same as web padding</span></code>
 <code><span class="datatype">Padding</span>(</code>
@@ -70,8 +71,8 @@ require_once(SHARED_PATH.'/head.php');
 <code>	    ),</code>
 <code>	  ),</code>
 <code>	),</code>
-<code>),</code>
-                    </pre>
+<code>),</code></pre>
+                    <p class="code-title">Padding example code sample in flutter   </p>
                 </div>
 
             </li>

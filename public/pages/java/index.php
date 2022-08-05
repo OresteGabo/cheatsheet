@@ -70,6 +70,7 @@ ou même une liste de noms de paramètres de type entre « chevrons » ( <> ).</
 d’un même type, connu seulement au moment de la compilation.
               </p>
               <div class="code">
+                
 <pre class="code">
 <code><span class="comment">// T est un paramètre (formel) de type.</span></code>
 <code><span class="comment">/* Dorénavant, un couple de n’importe quel type référence pourra être</span></code>
@@ -83,6 +84,7 @@ d’un même type, connu seulement au moment de la compilation.
 <code>}</code>
 </pre>
                         </div>
+                        <p class="code-title">Java genericity code sample</p>
                 </div>
           </section>
             
