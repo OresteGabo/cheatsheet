@@ -1,10 +1,13 @@
 /*Style for flutter codes*/
-code {
-    font-family: Consolas,"courier new";
-    color: RGB(229, 233, 240);
-    font-size: 105%;
-}
+
 /*trying code*/
+div.code{
+    margin-bottom: 20px;
+    
+    width:fit-content;
+    
+}
+
 pre.code::before {
     counter-reset: listing;
 }
@@ -37,21 +40,28 @@ pre.code code::before {
 pre{
     overflow:auto;
     background:RGB(40, 24, 1);
-    border-radius:0 10px 10px 0;
-    border:2px solid yellow;
+    border-radius:0 10px 0 0;
+    border:2px solid /*yellow*/rgb(223, 221, 221);
+    border-bottom: none;;
     display:inline-block;
+    margin-bottom:0;;
 
 }
+
 pre:hover{
-    box-shadow: 1px 1px 5px RGB(52, 58, 64);
-    transition:0.3s;
+    
 }
-.code{
+pre .code{
     /*border-bottom:1px solid black;
     border-right:1px solid black;
     /*border-radius:10px 0;*/
     padding-right:10px;
     min-width:300px;
+}
+code {
+    font-family: Consolas,"courier new";
+    color: RGB(229, 233, 240);
+    font-size: 105%;
 }
 code .datatype{
     color:orange;
@@ -71,4 +81,25 @@ code .comment{
 }
 code .keyword,code .acsess-modifier{
     color:RGB(235, 203, 139);
+}
+
+
+.code-title {
+    
+    
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    /*border: thin silver solid;*/
+    border:1px solid rgb(223, 221, 221);
+    background-color: rgba(255, 235, 205, 0.411);
+    margin: 0;
+    padding: 0.5em;
+    border-radius:0 0 10px 10px;
+    border:2px solid /*yellow*/rgb(223, 221, 221);
+    border-top:1px solid rgb(223, 221, 221);
+}
+p .code-title{
+    margin:0;
 }
