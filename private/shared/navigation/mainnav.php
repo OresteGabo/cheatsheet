@@ -1,5 +1,5 @@
 <?php
-include('../initialise.php');
+include('../../initialise.php');
 
 ?>
 
@@ -9,7 +9,7 @@ include('../initialise.php');
             <li class="nav-item">
                 <a href="#" class="nav-link">CSS</a>
             </li>
-            <li class="nav-item active"><a href="#" class="nav-link " >Flutter & dart</a></li>
+            <li class="nav-item active"><a href="#" class="nav-link " >Home</a></li>
             <li class="nav-item"><a href="<?php echo WWW_ROOT.'/pages/java/index.php';?>" class="nav-link">Java</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Database</a></li>
             <li class="nav-item"><a href="#" class="nav-link">private</a></li>

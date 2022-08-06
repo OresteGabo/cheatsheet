@@ -3,7 +3,6 @@
 /*trying code*/
 div.code{
     margin-bottom: 20px;
-    
     width:fit-content;
     
 }
@@ -96,7 +95,7 @@ code .keyword,code .acsess-modifier{
     background-color: rgba(255, 235, 205, 0.411);
     margin: 0;
     padding: 0.5em;
-    border-radius:0 0 10px 10px;
+    border-radius:0 0 10px 0;
     border:2px solid /*yellow*/rgb(223, 221, 221);
     border-top:1px solid rgb(223, 221, 221);
 }

@@ -1,5 +1,9 @@
 <?php
-require_once ('../../../private/initialise.php');
+/*
+U need to set the title variable for $page_title
+ */
+  require_once ('../../../private/initialise.php');
+  $page_title="La généricité en Java";
 ?>
 
 <!DOCTYPE html>
