@@ -102,3 +102,6 @@ code .keyword,code .acsess-modifier{
 p .code-title{
     margin:0;
 }
+.code-title a{
+    color:inherit;
+}
