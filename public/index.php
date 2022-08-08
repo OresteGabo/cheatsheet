@@ -108,12 +108,12 @@ require_once(SHARED_PATH.'/head.php');
 <code>      ),</code>
 <code>    );</code>
 <code> }</code>
-<code>}
+<code>}</code>
 <code></code>
 <code>class MyStatefulWidget extends StatefulWidget {</code>
 <code>  const MyStatefulWidget({Key? key}) : super(key: key);</code>
 <code></code>
-<code>  @override
+<code>  @override</code>
 <code>  State<MyStatefulWidget> createState() => _MyStatefulWidgetState();</code>
 <code>}</code>
 <code></code>
