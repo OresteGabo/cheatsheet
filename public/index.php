@@ -157,15 +157,21 @@ require_once(SHARED_PATH.'/head.php');
                 <strong class="li-key">Text</strong> in flutter can be styled as follow
                 <div class="code">
                             <pre class="code">
-<code><span class="datatype">Text</span>(</code>
-<code>  '<span class="value string">Hello again</span>',</code>
-<code>  <span class="property">style</span>: <span class="datatype">TextStyle</span>(</code>
-<code>    <span class="property">fontSize</span>: 24,</code>
-<code>    <span class="property">fontWeight</span>: <span class="datatype">FontWeight</span>.bold,</code>
-<code>  ),</code>
-<code>),</code>
+<code>ToggleButtons(</code>
+<code> children: <Widget>[</code>
+<code>   Icon(Icons.ac_unit),</code>
+<code>   Icon(Icons.call),</code>
+<code>   Icon(Icons.cake),</code>
+<code> ],</code>
+<code> onPressed: (int index) {</code>
+<code>   setState(() {</code>
+<code>     isSelected[index] = !isSelected[index];</code>
+<code>   });</code>
+<code> },</code>
+<code> isSelected: isSelected,</code>
+<code>),</code></code>
 </pre>
-<p class="code-title">The text widget in flutter</p>
+<p class="code-title"><a href="https://www.youtube.com/watch?v=kVEguaQWGAY">https://www.youtube.com/watch?v=kVEguaQWGAY</a></p>
                 </div>
 
             </li>
