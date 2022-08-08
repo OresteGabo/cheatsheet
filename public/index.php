@@ -1,5 +1,5 @@
 <?php
-include('../private/initialise.php');
+require_once('../private/initialise.php');
 
 $page_title="index title";
 ?>
@@ -8,12 +8,12 @@ $page_title="index title";
 <html lang="en">
 <?php
 require_once(SHARED_PATH.'/head.php');
-
 ?>
 <body>
 <header>
     <?php
-    require_once(SHARED_PATH.'/navigation.php');
+    $x=SHARED_PATH.'/navigation/mainnav.php';
+    require_once(NAVIGATION_PATH.'/mainnav.php');
     ?>
 </header>
 
@@ -76,6 +76,130 @@ require_once(SHARED_PATH.'/head.php');
                 </div>
 
             </li>
+
+
+
+
+
+
+
+
+
+            <li>
+                <strong class="li-key">Dissmissible</strong> in flutter 
+                <div class="code">
+                            <pre class="code">
+<code>import 'package:flutter/material.dart';</code>
+<code></code>
+<code>void main() => runApp(const MyApp());</code>
+<code></code>
+<code>class MyApp extends StatelessWidget {</code>
+<code>      const MyApp({Key? key}) : super(key: key);</code>
+<code></code>
+<code>      static const String _title = 'Flutter Code Sample';</code>
+<code></code>
+<code>      @override</code>
+<code>      Widget build(BuildContext context) {</code>
+<code>          return MaterialApp(</code>
+<code>              title: _title,</code>
+<code>              home: Scaffold(</code>
+<code>                  appBar: AppBar(title: const Text(_title)),</code>
+<code>       body: const MyStatefulWidget(),</code>
+<code>      ),</code>
+<code>    );</code>
+<code> }</code>
+<code>}
+<code></code>
+<code>class MyStatefulWidget extends StatefulWidget {</code>
+<code>  const MyStatefulWidget({Key? key}) : super(key: key);</code>
+<code></code>
+<code>  @override
+<code>  State<MyStatefulWidget> createState() => _MyStatefulWidgetState();</code>
+<code>}</code>
+<code></code>
+<code>class _MyStatefulWidgetState extends State<MyStatefulWidget> {</code>
+<code>  List<int> items = List<int>.generate(100, (int index) => index);</code>
+<code></code>
+<code>  @override</code>
+<code>  Widget build(BuildContext context) {</code>
+<code>          return ListView.builder(</code>
+<code>              itemCount: items.length,</code>
+<code>              padding: const EdgeInsets.symmetric(vertical: 16),</code>
+<code>              itemBuilder: (BuildContext context, int index) {</code>
+<code>                  return Dismissible(</code>
+<code>                      background: Container(</code>
+<code>                          color: Colors.green,</code>
+<code>                      ),</code>
+<code>                      key: ValueKey<int>(items[index]),</code>
+<code>                      onDismissed: (DismissDirection direction) {</code>
+<code>                          setState(() {</code>
+<code>                              items.removeAt(index);</code>
+<code>                          });</code>
+<code>                      },</code>
+<code>                      child: ListTile(</code>
+<code>                          title: Text(</code>
+<code>                              'Item ${items[index]}',</code>
+<code>                          ),</code>
+<code>                      ),</code>
+<code>                  );</code>
+<code>              },</code>
+<code>          );</code>
+<code>      }</code>
+<code>}</code>
+</pre>
+<p class="code-title">Dissmissible widget in flutter</p>
+                </div>
+
+            </li>
+
+
+            <li>
+                <strong class="li-key">Text</strong> in flutter can be styled as follow
+                <div class="code">
+                            <pre class="code">
+<code><span class="datatype">Text</span>(</code>
+<code>  '<span class="value string">Hello again</span>',</code>
+<code>  <span class="property">style</span>: <span class="datatype">TextStyle</span>(</code>
+<code>    <span class="property">fontSize</span>: 24,</code>
+<code>    <span class="property">fontWeight</span>: <span class="datatype">FontWeight</span>.bold,</code>
+<code>  ),</code>
+<code>),</code>
+</pre>
+<p class="code-title">The text widget in flutter</p>
+                </div>
+
+            </li>
+            <li>
+                <strong class="li-key">Text</strong> in flutter can be styled as follow
+                <div class="code">
+                            <pre class="code">
+<code><span class="datatype">Text</span>(</code>
+<code>  '<span class="value string">Hello again</span>',</code>
+<code>  <span class="property">style</span>: <span class="datatype">TextStyle</span>(</code>
+<code>    <span class="property">fontSize</span>: 24,</code>
+<code>    <span class="property">fontWeight</span>: <span class="datatype">FontWeight</span>.bold,</code>
+<code>  ),</code>
+<code>),</code>
+</pre>
+<p class="code-title">The text widget in flutter</p>
+                </div>
+
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             <li>
