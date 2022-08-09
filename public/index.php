@@ -91,54 +91,54 @@ require_once(SHARED_PATH.'/head.php');
                             <pre class="code">
 <code>import 'package:flutter/material.dart';</code>
 <code></code>
-<code>void main() => runApp(const MyApp());</code>
+<code>void main() => runApp(const <span class="datatype">MyApp</span>());</code>
 <code></code>
-<code>class MyApp extends StatelessWidget {</code>
-<code>      const MyApp({Key? key}) : super(key: key);</code>
+<code>class <span class="datatype">MyApp</span> extends StatelessWidget {</code>
+<code>      const <span class="datatype">MyApp</span>({<span class="datatype">Key</span>? key}) : super(<span class="property">key</span>: key);</code>
 <code></code>
 <code>      static const String _title = 'Flutter Code Sample';</code>
 <code></code>
 <code>      @override</code>
-<code>      Widget build(BuildContext context) {</code>
-<code>          return MaterialApp(</code>
-<code>              title: _title,</code>
-<code>              home: Scaffold(</code>
-<code>                  appBar: AppBar(title: const Text(_title)),</code>
-<code>       body: const MyStatefulWidget(),</code>
+<code>      <span class="datatype">Widget</span> build(<span class="datatype">BuildContext</span> context) {</code>
+<code>          return <span class="datatype">MaterialApp</span>(</code>
+<code>              <span class="property">title</span>: _title,</code>
+<code>              <span class="property">home</span>: <span class="datatype">Scaffold</span>(</code>
+<code>                  <span class="property">appBar</span>: <span class="datatype">AppBar</span>(<span class="property">title</span>: const <span class="datatype">Text</span>(_title)),</code>
+<code>       <span class="property">body</span>: const <span class="datatype">MyStatefulWidget</span>(),</code>
 <code>      ),</code>
 <code>    );</code>
 <code> }</code>
 <code>}</code>
 <code></code>
-<code>class MyStatefulWidget extends StatefulWidget {</code>
-<code>  const MyStatefulWidget({Key? key}) : super(key: key);</code>
+<code>class <span class="datatype">MyStatefulWidget</span> extends <span class="datatype">StatefulWidget</span> {</code>
+<code>  const <span class="datatype">MyStatefulWidget</span>({<span class="datatype">Key</span>? key}) : super(<span class="property">key</span>: key);</code>
 <code></code>
 <code>  @override</code>
-<code>  State<MyStatefulWidget> createState() => _MyStatefulWidgetState();</code>
+<code>  State<MyStatefulWidget> createState() => <span class="datatype">_MyStatefulWidgetState</span>();</code>
 <code>}</code>
 <code></code>
-<code>class _MyStatefulWidgetState extends State<MyStatefulWidget> {</code>
-<code>  List<int> items = List<int>.generate(100, (int index) => index);</code>
+<code>class <span class="datatype">_MyStatefulWidgetState</span> extends <span class="datatype">State</span>&lt<span class="datatype">MyStatefulWidget</span>&gt {</code>
+<code>  List<int> items = <span class="datatype">List</span>&ltint&gt.generate(100, (int index) => index);</code>
 <code></code>
 <code>  @override</code>
-<code>  Widget build(BuildContext context) {</code>
-<code>          return ListView.builder(</code>
-<code>              itemCount: items.length,</code>
-<code>              padding: const EdgeInsets.symmetric(vertical: 16),</code>
-<code>              itemBuilder: (BuildContext context, int index) {</code>
-<code>                  return Dismissible(</code>
-<code>                      background: Container(</code>
-<code>                          color: Colors.green,</code>
+<code>  <span class="datatype">Widget</span> build(<span class="datatype">BuildContext</span> context) {</code>
+<code>          return <span class="datatype">ListView</span>.builder(</code>
+<code>              <span class="property">itemCount</span>: items.length,</code>
+<code>              <span class="property">padding</span>: const <span class="datatype">EdgeInsets</span>.symmetric(vertical: 16),</code>
+<code>              <span class="property">itemBuilder</span>: (<span class="datatype">BuildContext</span> context, int index) {</code>
+<code>                  return <span class="datatype">Dismissible</span>(</code>
+<code>                      <span class="property">background</span>: <span class="datatype">Container</span>(</code>
+<code>                          <span class="property">color</span>: <span class="datatype">Colors</span>.green,</code>
 <code>                      ),</code>
-<code>                      key: ValueKey<int>(items[index]),</code>
-<code>                      onDismissed: (DismissDirection direction) {</code>
+<code>                      <span class="property">key</span>: <span class="datatype">ValueKey</span><int>(items[index]),</code>
+<code>                      <span class="property">onDismissed</span>: (<span class="datatype">DismissDirection</span> direction) {</code>
 <code>                          setState(() {</code>
 <code>                              items.removeAt(index);</code>
 <code>                          });</code>
 <code>                      },</code>
-<code>                      child: ListTile(</code>
-<code>                          title: Text(</code>
-<code>                              'Item ${items[index]}',</code>
+<code>                      <span class="property">child</span>: <span class="datatype">ListTile</span>(</code>
+<code>                          <span class="property">title</span>: <span class="datatype">Text</span>(</code>
+<code>                              '<span class="datatype">Item</span> ${items[index]}',</code>
 <code>                          ),</code>
 <code>                      ),</code>
 <code>                  );</code>
