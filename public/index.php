@@ -98,7 +98,7 @@ require_once(SHARED_PATH.'/head.php');
 <code></code>
 <code>      <span class="keyword">static</span> <span class="keyword">const</span> <span class="datatype">String</span> _title = '<span class="value string">Flutter Code Sample</span>';</code>
 <code></code>
-<code>      @override</code>
+<code>      <span class="comment keyword">@override</span></code>
 <code>      <span class="datatype">Widget</span> build(<span class="datatype">BuildContext</span> context) {</code>
 <code>          <span class="keyword">return</span> <span class="datatype">MaterialApp</span>(</code>
 <code>              <span class="property">title</span>: _title,</code>
@@ -113,14 +113,14 @@ require_once(SHARED_PATH.'/head.php');
 <code><span class="keyword">class</span> <span class="datatype">MyStatefulWidget</span> extends <span class="datatype">StatefulWidget</span> {</code>
 <code>  <span class="keyword">const</span> <span class="datatype">MyStatefulWidget</span>({<span class="datatype">Key</span>? key}) : super(<span class="property">key</span>: key);</code>
 <code></code>
-<code>  @override</code>
+<code>  <span class="comment keyword">@override</span></code>
 <code>  <span class="keyword">State</span>&lt;<span class="datatype">MyStatefulWidget</span>&gt; createState() => <span class="datatype">_MyStatefulWidgetState</span>();</code>
 <code>}</code>
 <code></code>
 <code><span class="keyword">class</span> <span class="datatype">_MyStatefulWidgetState</span> <span class="keyword">extends</span> <span class="datatype">State</span>&lt<span class="datatype">MyStatefulWidget</span>&gt {</code>
 <code>  <span class="datatype">List</span>&lt;int&gt; items = <span class="datatype">List</span>&lt;int&gt;.generate(100, (int index) => index);</code>
 <code></code>
-<code>  @override</code>
+<code>  <span class="comment keyword">@override</span></code>
 <code>  <span class="datatype">Widget</span> build(<span class="datatype">BuildContext</span> context) {</code>
 <code>          <span class="keyword">return</span> <span class="datatype">ListView</span>.builder(</code>
 <code>              <span class="property">itemCount</span>: items.length,</code>
