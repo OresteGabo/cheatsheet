@@ -66,6 +66,9 @@ code .datatype{
     color:orange;
 }
 
+span.comment.keyword{
+    color: rgba(146, 141, 141, 0.81);
+}
 
 
 code .property{
