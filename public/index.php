@@ -89,18 +89,18 @@ require_once(SHARED_PATH.'/head.php');
                 <strong class="li-key">Dissmissible</strong> in flutter 
                 <div class="code">
                             <pre class="code">
-<code>import 'package:flutter/material.dart';</code>
+<code><span class="keyword">import</span> '<span class="value string">package:flutter/material.dart</span>';</code>
 <code></code>
-<code>void main() => runApp(const <span class="datatype">MyApp</span>());</code>
+<code><span class="keyword">void</span> main() => runApp(const <span class="datatype">MyApp</span>());</code>
 <code></code>
-<code>class <span class="datatype">MyApp</span> extends StatelessWidget {</code>
-<code>      const <span class="datatype">MyApp</span>({<span class="datatype">Key</span>? key}) : super(<span class="property">key</span>: key);</code>
+<code><span class="keyword">class</span> <span class="datatype">MyApp</span> <span class="keyword">extends</span> <span class="datatype">StatelessWidget</span> {</code>
+<code>      <span class="keyword">const</span> <span class="datatype">MyApp</span>({<span class="datatype">Key</span>? key}) : super(<span class="property">key</span>: key);</code>
 <code></code>
-<code>      static const String _title = 'Flutter Code Sample';</code>
+<code>      <span class="keyword">static</span> <span class="keyword">const</span> <span class="datatype">String</span> _title = '<span class="value string">Flutter Code Sample</span>';</code>
 <code></code>
 <code>      @override</code>
 <code>      <span class="datatype">Widget</span> build(<span class="datatype">BuildContext</span> context) {</code>
-<code>          return <span class="datatype">MaterialApp</span>(</code>
+<code>          <span class="keyword">return</span> <span class="datatype">MaterialApp</span>(</code>
 <code>              <span class="property">title</span>: _title,</code>
 <code>              <span class="property">home</span>: <span class="datatype">Scaffold</span>(</code>
 <code>                  <span class="property">appBar</span>: <span class="datatype">AppBar</span>(<span class="property">title</span>: const <span class="datatype">Text</span>(_title)),</code>
@@ -110,15 +110,15 @@ require_once(SHARED_PATH.'/head.php');
 <code> }</code>
 <code>}</code>
 <code></code>
-<code>class <span class="datatype">MyStatefulWidget</span> extends <span class="datatype">StatefulWidget</span> {</code>
-<code>  const <span class="datatype">MyStatefulWidget</span>({<span class="datatype">Key</span>? key}) : super(<span class="property">key</span>: key);</code>
+<code><span class="keyword">class</span> <span class="datatype">MyStatefulWidget</span> extends <span class="datatype">StatefulWidget</span> {</code>
+<code>  <span class="keyword">const</span> <span class="datatype">MyStatefulWidget</span>({<span class="datatype">Key</span>? key}) : super(<span class="property">key</span>: key);</code>
 <code></code>
 <code>  @override</code>
-<code>  State<MyStatefulWidget> createState() => <span class="datatype">_MyStatefulWidgetState</span>();</code>
+<code>  <span class="keyword">State</span>&lt;<span class="datatype">MyStatefulWidget</span>&gt; createState() => <span class="datatype">_MyStatefulWidgetState</span>();</code>
 <code>}</code>
 <code></code>
-<code>class <span class="datatype">_MyStatefulWidgetState</span> extends <span class="datatype">State</span>&lt<span class="datatype">MyStatefulWidget</span>&gt {</code>
-<code>  List<int> items = <span class="datatype">List</span>&ltint&gt.generate(100, (int index) => index);</code>
+<code><span class="keyword">class</span> <span class="datatype">_MyStatefulWidgetState</span> <span class="keyword">extends</span> <span class="datatype">State</span>&lt<span class="datatype">MyStatefulWidget</span>&gt {</code>
+<code>  <span class="datatype">List</span>&lt;int&gt; items = <span class="datatype">List</span>&lt;int&gt;.generate(100, (int index) => index);</code>
 <code></code>
 <code>  @override</code>
 <code>  <span class="datatype">Widget</span> build(<span class="datatype">BuildContext</span> context) {</code>
@@ -126,7 +126,7 @@ require_once(SHARED_PATH.'/head.php');
 <code>              <span class="property">itemCount</span>: items.length,</code>
 <code>              <span class="property">padding</span>: const <span class="datatype">EdgeInsets</span>.symmetric(vertical: 16),</code>
 <code>              <span class="property">itemBuilder</span>: (<span class="datatype">BuildContext</span> context, int index) {</code>
-<code>                  return <span class="datatype">Dismissible</span>(</code>
+<code>                  <span class="keyword">return</span> <span class="datatype">Dismissible</span>(</code>
 <code>                      <span class="property">background</span>: <span class="datatype">Container</span>(</code>
 <code>                          <span class="property">color</span>: <span class="datatype">Colors</span>.green,</code>
 <code>                      ),</code>
@@ -158,17 +158,17 @@ require_once(SHARED_PATH.'/head.php');
                 <div class="code">
                             <pre class="code">
 <code><span class="datatype">ToggleButtons</span>(</code>
-<code> children: <Widget>[</code>
+<code> <span class="property">children</span>: <Widget>[</code>
 <code>   <span class="datatype">Icon</span>(<span class="datatype">Icons</span>.ac_unit),</code>
 <code>   <span class="datatype">Icon</span>(<span class="datatype">Icons</span>.call),</code>
 <code>   <span class="datatype">Icon</span>(<span class="datatype">Icons</span>.cake),</code>
 <code> ],</code>
-<code> onPressed: (int index) {</code>
+<code> <span class="property">onPressed</span>: (int index) {</code>
 <code>   setState(() {</code>
 <code>     isSelected[index] = !isSelected[index];</code>
 <code>   });</code>
 <code> },</code>
-<code> isSelected: isSelected,</code>
+<code> <span class="property">isSelected</span>: isSelected,</code>
 <code>),</code></code>
 </pre>
 <p class="code-title"><a href="https://www.youtube.com/watch?v=kVEguaQWGAY">https://www.youtube.com/watch?v=kVEguaQWGAY</a></p>
