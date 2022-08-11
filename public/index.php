@@ -122,7 +122,7 @@ require_once(SHARED_PATH.'/head.php');
 <code></code>
 <code>  @override</code>
 <code>  <span class="datatype">Widget</span> build(<span class="datatype">BuildContext</span> context) {</code>
-<code>          return <span class="datatype">ListView</span>.builder(</code>
+<code>          <span class="keyword">return</span> <span class="datatype">ListView</span>.builder(</code>
 <code>              <span class="property">itemCount</span>: items.length,</code>
 <code>              <span class="property">padding</span>: const <span class="datatype">EdgeInsets</span>.symmetric(vertical: 16),</code>
 <code>              <span class="property">itemBuilder</span>: (<span class="datatype">BuildContext</span> context, int index) {</code>
@@ -157,11 +157,11 @@ require_once(SHARED_PATH.'/head.php');
                 <strong class="li-key">Text</strong> in flutter can be styled as follow
                 <div class="code">
                             <pre class="code">
-<code>ToggleButtons(</code>
+<code><span class="datatype">ToggleButtons</span>(</code>
 <code> children: <Widget>[</code>
-<code>   Icon(Icons.ac_unit),</code>
-<code>   Icon(Icons.call),</code>
-<code>   Icon(Icons.cake),</code>
+<code>   <span class="datatype">Icon</span>(<span class="datatype">Icons</span>.ac_unit),</code>
+<code>   <span class="datatype">Icon</span>(<span class="datatype">Icons</span>.call),</code>
+<code>   <span class="datatype">Icon</span>(<span class="datatype">Icons</span>.cake),</code>
 <code> ],</code>
 <code> onPressed: (int index) {</code>
 <code>   setState(() {</code>
