@@ -3,17 +3,20 @@
 U need to set the title variable for $page_title
  */
   require_once ('../../../private/initialise.php');
+  
   $page_title="La généricité en Java";
+  
 ?>
 
 <!DOCTYPE html>
 <html lang="fr">
 <?php
 require_once(SHARED_PATH.'/head.php');
+
 ?>
 <body>
   <header>
-    <?php require_once(SHARED_PATH.'/navigation.php');
+    <?php require_once(SHARED_PATH.'/navigation/coursenav.php');
     ?>
     </header>
     <div id="wrapper">
@@ -79,16 +82,17 @@ d’un même type, connu seulement au moment de la compilation.
 <code><span class="comment">// T est un paramètre (formel) de type.</span></code>
 <code><span class="comment">/* Dorénavant, un couple de n’importe quel type référence pourra être</span></code>
 <code><span class="comment">instancié. */</span></code>
-<code><span class="acsess-modifier">public</span> <span class="keyword">class</span> <span class="datatype">Couple</span>&lt<span class="datatype">T</span>&gt {</code>
+<code><span class="access-modifier">public</span> <span class="keyword">class</span> <span class="datatype">Couple</span>&lt;<span class="datatype">T</span>&gt; {</code>
 <code>	<span class="comment">// Les attributs sont de type T.</span></code>
-<code>	<span class="acsess-modifier">public</span> <span class="keyword">final</span> <span class="datatype">T</span> <span class="property">un</span>, <span class="property">deux</span> ; <span class="comment">// Il n’est pas encore connu.</span></code>
-<code>	<span class="acsess-modifier">public</span> <span class="datatype">Couple</span>(<span class="datatype">T</span> <span class="property">un</span>, <span class="datatype">T</span> <span class="property">deux</span>) {</code>
+<code>	<span class="access-modifier">public</span> <span class="keyword">final</span> <span class="datatype">T</span> <span class="property">un</span>, <span class="property">deux</span> ; <span class="comment">// Il n’est pas encore connu.</span></code>
+<code>	<span class="access-modifier">public</span> <span class="datatype">Couple</span>(<span class="datatype">T</span> <span class="property">un</span>, <span class="datatype">T</span> <span class="property">deux</span>) {</code>
 <code>		<span class="keyword">this</span>.<span class="property">un</span> = <span class="property">un</span> ; <span class="keyword">this</span>.<span class="property">deux</span> = <span class="property">deux</span> ;</code>
 <code>	}</code>
 <code>}</code>
 </pre>
-                        </div>
+                        
                         <p class="code-title">Java genericity code sample</p>
+                        </div>
                 </div>
           </section>
             
