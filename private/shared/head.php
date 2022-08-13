@@ -20,6 +20,7 @@ if(!isset($page_title)){
     <link rel="stylesheet" href="<?php echo url_for('/styles/tables.css');?>">
     <link rel="stylesheet" href="<?php echo url_for('/styles/typography.css');?>">
     <link rel="stylesheet" href="<?php echo url_for('/styles/code.css');?>">
+    <link rel="stylesheet" href="<?php echo url_for('/styles/coursecontentnav.css');?>">
     <title><?php echo $page_title; ?></title>
 
 
