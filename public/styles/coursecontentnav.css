@@ -10,4 +10,6 @@ a{
 
 .table-of-content{
     float:left;
+    position:sticky;
+    top: 0;
 }
