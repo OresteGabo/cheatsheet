@@ -3,7 +3,11 @@ aside .table-of-content{
     border:1px solid yellow;
     color:aqua;
 }
-*{
-    
-    
+a{
+    color:white;
+    text-decoration:none;
+}
+
+.table-of-content{
+    float:left;
 }

@@ -19,10 +19,7 @@ require_once(SHARED_PATH.'/head.php');
     <?php require_once(SHARED_PATH.'/navigation/coursenav.php');
     ?>
     </header>
-    <div id="wrapper">
-<div class="container">
-    <div class="container">
-      <aside   class="table-of-content">
+    <aside   class="table-of-content">
         <h3 class="title">La généricité en Java</h3>
         <nav class=>
           <ul>
@@ -54,6 +51,12 @@ l’exemple</a></li>
         </nav>
 
       </aside>
+    <div id="wrapper">
+      
+<div class="container">
+
+    <div class="container">
+      
         <main class="content">
           <section class="chapter">
             <h1 class="title">Introduction</h1>
