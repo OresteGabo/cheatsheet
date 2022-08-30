@@ -80,6 +80,7 @@ ou même une liste de noms de paramètres de type entre « chevrons » ( <> ).</
 d’un même type, connu seulement au moment de la compilation.
               </p>
               <div class="code">
+              <p class="code-title">Java genericity code sample</p> 
                 
 <pre class="code">
 <code><span class="comment">// T est un paramètre (formel) de type.</span></code>
@@ -94,7 +95,7 @@ d’un même type, connu seulement au moment de la compilation.
 <code>}</code>
 </pre>
                         
-                        <p class="code-title">Java genericity code sample</p>
+                        
                         </div>
                 </div>
           </section>
@@ -109,6 +110,7 @@ ou même une liste de noms de paramètres de type entre « chevrons » ( <> ).</
 d’un même type, connu seulement au moment de la compilation.
               </p>
               <div class="code">
+              <p class="code-title">Java genericity code sample</p> 
                 
 <pre class="code">
 <code><span class="comment">// T est un paramètre (formel) de type.</span></code>
@@ -123,7 +125,7 @@ d’un même type, connu seulement au moment de la compilation.
 <code>}</code>
 </pre>
                         
-                        <p class="code-title">Java genericity code sample</p>
+                       
                         </div>
                 </div>
           </section>
@@ -138,6 +140,7 @@ ou même une liste de noms de paramètres de type entre « chevrons » ( <> ).</
 d’un même type, connu seulement au moment de la compilation.
               </p>
               <div class="code">
+              <p class="code-title">Java genericity code sample</p> 
                 
 <pre class="code">
 <code><span class="comment">// T est un paramètre (formel) de type.</span></code>
@@ -152,7 +155,7 @@ d’un même type, connu seulement au moment de la compilation.
 <code>}</code>
 </pre>
                         
-                        <p class="code-title">Java genericity code sample</p>
+                        
                         </div>
                 </div>
           </section>
@@ -167,6 +170,7 @@ ou même une liste de noms de paramètres de type entre « chevrons » ( <> ).</
 d’un même type, connu seulement au moment de la compilation.
               </p>
               <div class="code">
+              <p class="code-title">Java genericity code sample</p> 
                 
 <pre class="code">
 <code><span class="comment">// T est un paramètre (formel) de type.</span></code>
@@ -181,7 +185,7 @@ d’un même type, connu seulement au moment de la compilation.
 <code>}</code>
 </pre>
                         
-                        <p class="code-title">Java genericity code sample</p>
+                        
                         </div>
                 </div>
           </section>
@@ -196,7 +200,7 @@ ou même une liste de noms de paramètres de type entre « chevrons » ( <> ).</
 d’un même type, connu seulement au moment de la compilation.
               </p>
               <div class="code">
-                
+              <p class="code-title">Java genericity code sample</p> 
 <pre class="code">
 <code><span class="comment">// T est un paramètre (formel) de type.</span></code>
 <code><span class="comment">/* Dorénavant, un couple de n’importe quel type référence pourra être</span></code>
@@ -210,7 +214,7 @@ d’un même type, connu seulement au moment de la compilation.
 <code>}</code>
 </pre>
                         
-                        <p class="code-title">Java genericity code sample</p>
+                        
                         </div>
                 </div>
           </section>
@@ -225,6 +229,12 @@ ou même une liste de noms de paramètres de type entre « chevrons » ( <> ).</
 d’un même type, connu seulement au moment de la compilation.
               </p>
               <div class="code">
+              <div class="accordion">
+  <div>
+    <input type="checkbox" name="example_accordion" id="section1" class="accordion__input">
+    <label for="section1" class="accordion__label code-title">Java genericity code sample</label>
+    <div class="accordion__content">
+              
                 
 <pre class="code">
 <code><span class="comment">// T est un paramètre (formel) de type.</span></code>
@@ -239,10 +249,39 @@ d’un même type, connu seulement au moment de la compilation.
 <code>}</code>
 </pre>
                         
-                        <p class="code-title">Java genericity code sample</p>
+                        
                         </div>
+                        </div>
+  </div>
                 </div>
           </section>
+          <div class="accordion">
+  
+  <div>
+    <input type="checkbox" name="example_accordion" id="section2" class="accordion__input">
+    <label for="section2" class="accordion__label">Section #2</label>
+    <div class="accordion__content">
+      <p>Section #2</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit reiciendis, ipsam quaerat,
+        aperiam perspiciatis ad ullam architecto impedit natus illo nostrum molestias voluptas earum a
+        voluptatibus fugiat fuga facere!
+      </p>
+    </div>
+  </div>
+  <div>
+    <input type="checkbox" name="example_accordion" id="section3" class="accordion__input">
+    <label for="section3" class="accordion__label">Section #3</label>
+    <div class="accordion__content">
+      <p>Section #3</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit reiciendis, ipsam quaerat,
+        aperiam perspiciatis ad ullam architecto impedit natus illo nostrum molestias voluptas earum a
+        voluptatibus fugiat fuga facere!
+      </p>
+    </div>
+  </div>
+</div>
             
           
         </main>
