@@ -233,10 +233,9 @@ d’un même type, connu seulement au moment de la compilation.
   <div>
     <input type="checkbox" name="example_accordion" id="section1" class="accordion__input">
     <label for="section1" class="accordion__label code-title">Java genericity code sample</label>
-    <div class="accordion__content">
               
                 
-<pre class="code">
+<pre class="code accordion__content">
 <code><span class="comment">// T est un paramètre (formel) de type.</span></code>
 <code><span class="comment">/* Dorénavant, un couple de n’importe quel type référence pourra être</span></code>
 <code><span class="comment">instancié. */</span></code>
@@ -250,7 +249,7 @@ d’un même type, connu seulement au moment de la compilation.
 </pre>
                         
                         
-                        </div>
+                        
                         </div>
   </div>
                 </div>
