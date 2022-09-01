@@ -21,8 +21,10 @@ require_once(SHARED_PATH.'/head.php');
     </header>
     <aside   class="table-of-content">
         <h3 class="title">La généricité en Java</h3>
-        <nav class=>
-          <ul>
+        <nav class="">
+        <input type="checkbox" name="example_accordion" id="navv" class="accordion__input">
+        <label for="navv accordion__label code-title">La généricité en Java</label>
+          <ul class ="accordion__content">
               <li><a href="">Introduction</a></li>
               <li><a href="">Définition d’une classe générique</a></li>
               <li><a href="">Restriction des types admis</a></li>
@@ -254,33 +256,7 @@ d’un même type, connu seulement au moment de la compilation.
   </div>
                 </div>
           </section>
-          <div class="accordion">
-  
-  <div>
-    <input type="checkbox" name="example_accordion" id="section2" class="accordion__input">
-    <label for="section2" class="accordion__label">Section #2</label>
-    <div class="accordion__content">
-      <p>Section #2</p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit reiciendis, ipsam quaerat,
-        aperiam perspiciatis ad ullam architecto impedit natus illo nostrum molestias voluptas earum a
-        voluptatibus fugiat fuga facere!
-      </p>
-    </div>
-  </div>
-  <div>
-    <input type="checkbox" name="example_accordion" id="section3" class="accordion__input">
-    <label for="section3" class="accordion__label">Section #3</label>
-    <div class="accordion__content">
-      <p>Section #3</p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit reiciendis, ipsam quaerat,
-        aperiam perspiciatis ad ullam architecto impedit natus illo nostrum molestias voluptas earum a
-        voluptatibus fugiat fuga facere!
-      </p>
-    </div>
-  </div>
-</div>
+          
             
           
         </main>
